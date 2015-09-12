@@ -1,0 +1,7 @@
+#!/usr/bin/osascript
+-- this will fail if /tmp/fisheye doesn't already exist
+tell application "Aperture"
+  set cursel to the selection
+  set tempPath to "/tmp/fisheye/"
+  export cursel using export setting "TIFF - Original Size (16-bit)" to tempPath
+end tell

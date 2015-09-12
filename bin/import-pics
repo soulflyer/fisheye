@@ -1,0 +1,10 @@
+#!/usr/bin/osascript
+set theScript to "ls /tmp/fisheye/*Hug.jpg"
+log theScript
+set fileList to do shell script theScript
+log "importing: " & fileList
+tell application "Aperture"
+  set cursel to the selection
+  set theProject to parent of first item of cursel
+  import fileList by referencing into theProject
+end tell

@@ -1,0 +1,8 @@
+# PTStitcher script, written by hugin
+
+p f19 w10691 h7126 v144  P"85 0 0" n"TIFF_m c:LZW r:CROP"
+m g1 i0 f0 m2 p0.00784314
+
+# output image lines
+o w7360 h4912 f3 TrX0 TrY0 TrZ0 a0 b0 c0 d0 e0 g0 p0 r0 t0 v128.872386560248 y0  n"/Users/iain/Code/fisheye/DIW_5445.tiff"
+
